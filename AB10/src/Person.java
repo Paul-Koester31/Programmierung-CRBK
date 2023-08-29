@@ -31,6 +31,6 @@ public class Person {
 
     @Override
     public String toString() {
-        return this.vorname+" "+this.nachname;
+        return this.vorname + " " + this.nachname;
     }
 }
