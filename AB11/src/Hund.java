@@ -19,7 +19,7 @@ public class Hund extends Vierbeiner {
     }
 
     public void fressen(Fressnapf napf) {
-        System.out.println("Hund frisst : " + napf.toString());
+        System.out.println("Hund " + this.getName() + " frisst : " + napf.toString());
     }
 
     public void addlieblingsfutter(Futter f) {
