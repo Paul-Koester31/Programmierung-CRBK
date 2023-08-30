@@ -24,8 +24,9 @@ public class Main {
         h.addlieblingsspielzeug("Knochen");
         h.addlieblingsspielzeug("Jochen");
         h.addlieblingsspielzeug("Rochen");
-
-        System.out.println(h.getLieblingsspielzeug().toString());
+        for (int i = 0; i < h.getLieblingsspielzeug().length; i++) {
+            System.out.println(h.getLieblingsspielzeug()[i]);
+        }
 
     }
 }

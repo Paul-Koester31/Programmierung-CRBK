@@ -30,6 +30,7 @@ public class Hund extends Vierbeiner {
         for (int i = 0; i < lieblingsspielzeug.length; i++) {
             if (lieblingsspielzeug[i].isBlank()) {
                 lieblingsspielzeug[i] = spielzeug;
+                break;
             }
         }
     }

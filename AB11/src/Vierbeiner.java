@@ -1,8 +1,9 @@
-public class Vierbeiner {
+public abstract class Vierbeiner {
     private String name;
     private int gewicht;
 
-    public Vierbeiner(){}
+    public Vierbeiner() {
+    }
 
     public void setName(String name) {
         this.name = name;
