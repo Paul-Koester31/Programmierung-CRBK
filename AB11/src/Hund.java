@@ -4,14 +4,18 @@ public class Hund extends Vierbeiner {
 
     private String[] lieblingsspielzeug = new String[3];
     private HashSet<Futter> lieblingsfutter = new HashSet<>();
-    private static int hundeZeahler;
+    public static int hundeZeahler;
     private static final String version = "1.0";
 
-    public Hund() {
-        hundeZeahler++;
+    public Hund() {}
+
+    public Hund(String name, int gewicht) {
+        setName(name);
+        setGewicht(gewicht);
         lieblingsspielzeug[0] = "";
         lieblingsspielzeug[1] = "";
         lieblingsspielzeug[2] = "";
+        hundeZeahler++;
     }
 
     public void bellen() {

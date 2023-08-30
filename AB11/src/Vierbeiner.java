@@ -2,9 +2,6 @@ public abstract class Vierbeiner {
     private String name;
     private int gewicht;
 
-    public Vierbeiner() {
-    }
-
     public void setName(String name) {
         this.name = name;
     }

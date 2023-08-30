@@ -1,20 +1,15 @@
 public class Main {
     public static void main(String[] args) {
-        Hund h1 = new Hund();
-        h1.setName("Jürgen");
-        h1.setGewicht(5);
-
-        Hund h2 = new Hund();
-        h2.setName("Smitty Werben jaggerman Janson");
-        h2.setGewicht(50);
+        Hund h1 = new Hund("Jürgen", 5);
 
 
-        Futter f1 = new Futter("le fish au chocolat");
-        Futter f2 = new Futter("Sülze");
-        h1.addlieblingsfutter(f2);
-        h1.addlieblingsfutter(f1);
+        Hund h2 = new Hund("Smitty Werben jaggerman Janson",50);
 
-        Fressnapf napf = new Fressnapf(f1);
+
+        h1.addlieblingsfutter(new Futter("le fish au chocolat"));
+        h1.addlieblingsfutter(new Futter("Sülze"));
+
+        Fressnapf napf = new Fressnapf(new Futter("Sülze"));
         h1.fressen(napf);
 
         Tierheim th = new Tierheim();
@@ -35,6 +30,9 @@ public class Main {
         for (int i = 0; i < h1.getLieblingsspielzeug().length; i++) {
             System.out.println("Lieblingspielzeug " + (i + 1) + "->" + h1.getLieblingsspielzeug()[i]);
         }
+
+        h2.bellen();
+        System.out.println(Hund.hundeZeahler);
 
     }
 }
