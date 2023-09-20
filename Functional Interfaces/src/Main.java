@@ -1,10 +1,5 @@
-import java.sql.Struct;
-import java.util.ArrayList;
 import java.util.List;
-import java.util.Optional;
-import java.util.function.Consumer;
-import java.util.function.Function;
-import java.util.function.Predicate;
+import java.util.function.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -17,9 +12,14 @@ public class Main {
         List<String> students = List.of("Peter","Paul","Marie");
         //students.forEach(swem);
 
+        //Test-Input=?-Output=boolean
         Predicate<String> studentTest = student -> student.startsWith("M");
+
+        Supplier<Double> random1000= () -> Math.random()*1000;
+        System.out.println(random1000.get());
+
         //System.out.println(studentTest.test(students.get(2)));
-        System.out.println(students.stream().anyMatch(studentTest));
+        //System.out.println(students.stream().anyMatch(studentTest));
 
         //System.out.println(add2Funktion.apply(4));
         //System.out.println(add2Funktion.andThen(mult3).apply(4));;
