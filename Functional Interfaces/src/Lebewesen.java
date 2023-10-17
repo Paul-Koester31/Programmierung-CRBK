@@ -1,3 +1,3 @@
 public interface Lebewesen {
-    void maceEtwas(String s);
+    void macheEtwas(String s);
 }
