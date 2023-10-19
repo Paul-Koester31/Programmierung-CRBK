@@ -1,5 +1,5 @@
 @FunctionalInterface
 public interface ZutatenVerarbeiten {
-    public void schneiden();
+    boolean schneiden(Zutat z,int anzahl);
 
 }

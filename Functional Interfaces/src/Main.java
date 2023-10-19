@@ -14,6 +14,8 @@ public class Main {
 
         //Test-Input=?-Output=boolean
         Predicate<String> studentTest = student -> student.startsWith("M");
+        System.out.println(studentTest.test(students.get(1)));
+
 
         Supplier<Double> random1000= () -> Math.random()*1000;
         System.out.println(random1000.get());
