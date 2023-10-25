@@ -12,8 +12,8 @@ public class ZutatTest1 {
             System.out.println("Schneide " + anzahl + " " + zutat.getName());
             return true;
         };
-        verarbeiten.schneiden(z, 6);
-        verarbeiten.schneiden(z, 6);
+        verarbeiten.schneiden(z, 12);
+        verarbeiten.schneiden(z, 4);
     }
 
 }

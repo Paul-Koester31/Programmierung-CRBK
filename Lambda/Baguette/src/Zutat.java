@@ -13,12 +13,8 @@ public class Zutat {
     public Zutat() {
     }
 
-    public Zutat(String name,int anzahl) {
+    public Zutat(String name, int anzahl) {
         this.name = name;
-        this.anzahl=anzahl;
+        this.anzahl = anzahl;
     }
-
-   /* public void zubereiten(ZutatenVerarbeiten z, int anzahl) {
-        z.schneiden(anzahl);
-    }*/
 }
