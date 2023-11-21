@@ -9,7 +9,7 @@ import java.util.stream.Stream;
 
 public class Main {
     public static void main(String[] args) {
-        sortierenundSchreiben(auslesen("Datei_Mitarbeiter.csv"));
+        sortierenUndSchreiben(auslesen("Datei_Mitarbeiter.csv"));
 
     }
 
@@ -23,7 +23,7 @@ public class Main {
         }
     }
 
-    public static void sortierenundSchreiben(List<String> list) {
+    public static void sortierenUndSchreiben(List<String> list) {
         list.sort(Comparator.comparing(line -> Arrays.asList(line.split(",")).get(2)));
         list.forEach(System.out::println);
         try {
