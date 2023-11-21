@@ -1,0 +1,33 @@
+13,60001, Aagenau, Karolin,1950-01-02, 0234/66006001, , Karolin.Aagenau@unserefirma.de,48, J,6
+18,80002, Aliman, Zafer,1965-11-12, 0201/4012161, 0171 9416755, Zafer.Aliman@unserefirma.de,102, N,8
+28,120002, Baber, Yvonne,1957-10-02, 0234/66012002, NULL, Yvonne.Baber@unserefirma.de,62, N,12
+30,7, Bartes, Martin,1966-02-14, NULL, NULL, NULL, NULL, N,0
+10,50002, Braun, Christian,1966-09-05, 0201/4014726, 0170 8351647, christian.braun@unserefirma.de,153, N,5
+27,120001, Carlsen, Zacharias,1965-09-29, 0234/66012001, , Zacharias.Carlsen@unserefirma.de,61, J,12
+26,110002, Deiters, Gisela,1989-08-26, 02323/381457, NULL, Gisela.Deiters@unserefirma.de,18, N,11
+29,99999, Douglas, Martin, 0000-00-00, NULL, NULL, NULL, NULL, n,0
+25,110001, Eggert, Louis,1986-07-23, 02323/381456, , Louis.Eggert@unserefirma.de,14, J,11
+6,30002, Feyerabend, Werner,1982-04-01, 0231/5554997, NULL, werner.feyerabend@unserefirma.de,316, N,3
+24,100002, Friedrichsen, Angelina,1983-06-20, 0201/4013345, NULL, Angelina.Friedrichsen@unserefirma.de,273, N,10
+23,100001, Grosser, Horst,1980-05-17, 0201/4013344, , Horst.Grosser@unserefirma.de,271, J,10
+22,90002, Hinkel, Martina,1977-04-16, 0201/4013110, NULL, Martina.Hinkel@unserefirma.de,203, N,9
+21,90001, Janssen, Bernhard,1974-03-15, 0201/4013111, , Bernhard.Janssen@unserefirma.de,201, J,9
+12,50004, Kalman, Aydin,1976-12-17, 0201/4014728, 0161 4486319, aydin.kalman@unserefirma.de,155, N,5
+20,80004, Kolic, Ivana,1971-02-14, 0201/4012181, 0172 4680135, Ivana.Kolic@unserefirma.de,104, N,8
+19,80003, Langer, Norbert,1968-01-13, 0201/4012171, 0162 1357902, Norbert.Langer@unserefirma.de,103, N,8
+7,40001, Langmann, Matthias,1976-03-28, 0231/5551927, , matthias.langmann@unserefirma.de,412, J,4
+3,20001, Meyer, Walter,1963-07-02, 0231/5553967, , walter.meyer@unserefirma.de,212, J,2
+1,10001, Müüüüüüüüüüller, Kurt,1977-01-05, 0231/5554987, , kurt.mueller@unserefirma.de,112, J,1
+16,70002, Nordmann, Jörg,1959-07-08, 0234/66007002, NULL, Joerg.Nordmann@unserefirma.de,27, N,7
+15,70001, Olschewski, Pjotr,1956-05-06, 0234/66007001, , Pjotr.Olschewski@unserefirma.de,28, J,7
+8,40002, Peters, Michael,1973-11-15, 0231/5554237, NULL, michael.peters@unserefirma.de,412, N,4
+14,60002, Pinkart, Petra,1953-03-04, 0234/66006002, NULL, Petra.Pinkart@unserefirma.de,43, N,6
+9,50001, Pohl, Helmut,1980-10-27, 0201/4014186, 0171 4123456, helmut.pohl@unserefirma.de,152, J,5
+11,50003, Polovic, Frantisek,1961-11-26, 0201/4014727, 0161 5124793, frantisek.polovic@unserefirma.de,154, N,5
+17,80001, Schindler, Zeta,1962-09-10, 0201/4012151, 0173 7513901, Christina.Schindler@unserefirma.de,101, J,8
+17,80001, Schindler, Christina,1962-09-10, 0201/4012151, 0173 7513901, Christina.Schindler@unserefirma.de,101, J,8
+17,80001, Schindler, Anna,1962-09-10, 0201/4012151, 0173 7513901, Christina.Schindler@unserefirma.de,101, J,8
+4,20002, Schmitz, Michael,1959-08-25, 0231/5556187, NULL, michael.schmitz@unserefirma.de,212, N,2
+2,10002, Schneider, Daniela,1980-02-16, 0231/5554988, NULL, daniela.schneider@unserefirma.de,113, N,1
+5,30001, Wagner, Gaby,1970-01-18, 0231/5554787, , gaby.wagner@unserefirma.de,312, J,3
+`ID`, `Personalnummer`, `Name`, `Vorname`, `Geburtsdatum`, `Telefon`, `Mobil`, `Email`, `Raum`, `Ist_Leiter`, `Abteilung_ID` VALUES

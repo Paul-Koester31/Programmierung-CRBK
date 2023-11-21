@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Streams/AB01/AB01.iml" filepath="$PROJECT_DIR$/Streams/AB01/AB01.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lambda/AB05/AB05.iml" filepath="$PROJECT_DIR$/Lambda/AB05/AB05.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lambda/AB05/AB052/AB052.iml" filepath="$PROJECT_DIR$/Lambda/AB05/AB052/AB052.iml" />
       <module fileurl="file://$PROJECT_DIR$/AB09/AB09.iml" filepath="$PROJECT_DIR$/AB09/AB09.iml" />
@@ -14,6 +15,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/ISW_HUE.iml" filepath="$PROJECT_DIR$/.idea/ISW_HUE.iml" />
       <module fileurl="file://$PROJECT_DIR$/Korrektur1/Korrektur1.iml" filepath="$PROJECT_DIR$/Korrektur1/Korrektur1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lambda/Lambda.iml" filepath="$PROJECT_DIR$/Lambda/Lambda.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Streams/Streams.iml" filepath="$PROJECT_DIR$/Streams/Streams.iml" />
     </modules>
   </component>
 </project>
