@@ -1,0 +1,86 @@
+Bisher gingen alle Ausgaben nach dem Standard out d.h. auf den monitor
+Der Vorteil von Dateien ist die Persistenz, d.h. die Information bleib dauerhaft erhalten.
+Grundlegende Eigenschaften von Dateien:
+•	Dateiname
+•	Inhalt
+
+Datei Operation
+•	Erzeugen
+•	Schreiben
+•	Lesen
+•	Löschen
+•	Dateinamen ändern
+•	Überschreiben
+
+Die File Klasse 
+•	Java stellt eine vordefinierte Klasse FILE zur Verfügung
+•	Der Konstruktor für File nimmt als Argument den Dateinamen
+Beispiel:
+File f1;
+F1= new FILE(“lettertojoanna“);
+Hinweis:
+Wenn ein File-Objekt erzeugt wird, bedeutet das nicht , dass gleichzeitig auch die Datei erzeugt wird.
+
+Dateien umbenennen und löschen
+•	Existierende Dateien können in Java mit renameTo umbenannt werden.
+•	Mit der Methode delete können vorhandene Dateien gelöscht werden.
+Prototypen:
+Methode	Return-Wert	Argumente	Aktion
+Delete	Void	Keine	Löscht die Datei
+renameTo	Void	File-Objekt-Referenz	Nennt die Datei um
+
+Ausgabe in Dateien
+•	In Java verwenden wir so genannte (Ausgabe)-Ströme bzw. (Output)-Streams, um Dateien mit Inhalt zu füllen.
+•	Die Klasse FileOutputStream stellt einen solchen Strom zur Verfügung.
+•	Der Konstruktor von FileOutputStream akzeptiert als Argument eine Referenz auf ein File-Objekt.
+•	Die Datei mit dem durch das Argument gegebenen Namen wird geöffnet.
+•	Ist die Datei nicht vorhanden, so wird sie erzeugt.
+•	Ist die Datei vorhanden wir ihr Inhalt gelöscht
+
+Wirkung von FileOutputStream
+•	FileOutputStream modelliert die Ausgabe als eine Sequenz von kleinen, uninterpretierten Einheiten bzw. Bytes.
+•	Sie stellt keine Möglichkeit zur Verfügung, die Daten zu gruppieren.
+•	Methoden wie println zum Ausgeben von Zeilen werden nicht zur Verfügung gestellt
+
+PrintStream-Objekte
+•	Um Ausgaben auf den Monitor zu erzeugen, haben wir bisher die Nachrichten println oder print an das System.out-Objekt geschikt
+•	Dabei ist system.out eine Referenz auf eine Instanz der Klasse PrintStream.
+•	Um in eine Datei zu schreiben, erzeugen wir ein Printstream-Objekt, welches die Datei repräsentiert.
+•	Darauf wenden wir dann die Methoden println oder print an.
+
+Erzeugen von PrintStream-Objekten
+Der Konstruktor von PrintStream akzeptiert eine Referenz auf einen FileOutputStream.
+File diskfile = new Dile(“data.out“);
+FileOutpuStream diskFileStream = new FileOutputStream(diskFile);
+Printstream target = new PrintStream(diskFileStream);
+Target.println(“Hello Disk File”);
+
+Dieser Code erzeugt eine Datei data.out  mit dem Inhalt Hello Disk File.
+Eine evtl. existierende Datei mit dem gleichen Namen wird gelöscht und ihr inhalt wird überschrieben.
+
+Mögliche Fehler
+•	Das Erzeugen einer Datei stellt eine Interaktion mit externen Komponenten dar (z.B. Betriebssystem, Hardware etc.)
+•	Dabei können Fehler auftreten, die nicht durch das Programm selbst verschuldet sind.
+•	Beispielsweise kann die Festplatte voll sein oder sie kann einen Schreibfehler haben. Weiter kann das Verzeichnis, in dem das Programm ausgeführt wird, schreibgeschützt sein. 
+•	In solchen Fällen wird das einen Fehler Produzieren
+•	Java erwartet, dass der Programmierer mögliche Fehler explizit erwähnt.
+•	Dazu wird die Phrase throws Exeption verwendet.
+
+Eingabe: ein typisches Verfahren
+ Um Eingaben von einem Eingabestrom verarbeiten zu können, müssen folgende Schritte durchgeführt werden.
+1.	Erzeugen Sie ein InputStream-Objekt, ein FileInputStream- Objekt oder verwenden Sie das System.in-Objekt.
+2.	Verwenden Sie dieses Eingabestrom-Objekt, um einen InputStreamReader-Objekt zu erzeugen.
+3.	Erzeugen Sie ein BufferedReader-Objekt mithilfe des InputStreamReader-Objektes.
+4.	Dabei wird FileInputStream für das Einlesen aus Dateien, InputStream für das Einlesen aus dem Internet und System.in für die Eingabe von der Tastatur verwendet.
+
+Wirkung eines InputStream-Objektes
+InputStream-Objekte, FileInputStream-Objekte oder das System.in-Objekt modellieren die Eingabe als einen kontinuierliche, zusammenhängende Sequenz kleiner Einheiten, d.h. als eine Folge von Bytes.
+
+Wirkung eines InputStreamReader-Objektes
+InputStreamReader-Objekte hingegen modellieren die Eingabe als eine Folge von Zeichen, sodass daraus Zeichenketten zusammengesetzt werden können.
+BufferedReader
+BufferedReader-Objekte schließlich modellieren die Eingabe als eine Folge von Zeilen, die einzeln durch String-Objekte repräsentiert werden können.
+
+Objekt-Serialisierung
+Mit Objekt-serialisierung ist das Überführen von Objekten und deren Zustand in eine sequenzielle Datenstruktur gemeint ( Datenstrom).
+

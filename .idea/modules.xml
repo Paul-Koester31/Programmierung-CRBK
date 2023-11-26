@@ -3,18 +3,25 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Streams/AB01/AB01.iml" filepath="$PROJECT_DIR$/Streams/AB01/AB01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Streams/AB02/AB02.iml" filepath="$PROJECT_DIR$/Streams/AB02/AB02.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lambda/AB05/AB05.iml" filepath="$PROJECT_DIR$/Lambda/AB05/AB05.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lambda/AB05/AB052/AB052.iml" filepath="$PROJECT_DIR$/Lambda/AB05/AB052/AB052.iml" />
       <module fileurl="file://$PROJECT_DIR$/AB09/AB09.iml" filepath="$PROJECT_DIR$/AB09/AB09.iml" />
       <module fileurl="file://$PROJECT_DIR$/AB10/AB10.iml" filepath="$PROJECT_DIR$/AB10/AB10.iml" />
       <module fileurl="file://$PROJECT_DIR$/AB11/AB11.iml" filepath="$PROJECT_DIR$/AB11/AB11.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lambda/Baguette/Baguette.iml" filepath="$PROJECT_DIR$/Lambda/Baguette/Baguette.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Streams/Datenverarbeitung/Buffering/Buffering.iml" filepath="$PROJECT_DIR$/Streams/Datenverarbeitung/Buffering/Buffering.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Streams/Datenverarbeitung/ByteStreams/ByteStreams.iml" filepath="$PROJECT_DIR$/Streams/Datenverarbeitung/ByteStreams/ByteStreams.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lambda/Challenge/Challenge.iml" filepath="$PROJECT_DIR$/Lambda/Challenge/Challenge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Streams/Datenverarbeitung/CharacterStreams/CharacterStreams.iml" filepath="$PROJECT_DIR$/Streams/Datenverarbeitung/CharacterStreams/CharacterStreams.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Streams/Datenverarbeitung/Datenverarbeitung.iml" filepath="$PROJECT_DIR$/Streams/Datenverarbeitung/Datenverarbeitung.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lambda/Einfuerung/Einfuerung.iml" filepath="$PROJECT_DIR$/Lambda/Einfuerung/Einfuerung.iml" />
       <module fileurl="file://$PROJECT_DIR$/Functional Interfaces/Functional Interfaces.iml" filepath="$PROJECT_DIR$/Functional Interfaces/Functional Interfaces.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/ISW_HUE.iml" filepath="$PROJECT_DIR$/.idea/ISW_HUE.iml" />
       <module fileurl="file://$PROJECT_DIR$/Korrektur1/Korrektur1.iml" filepath="$PROJECT_DIR$/Korrektur1/Korrektur1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lambda/Lambda.iml" filepath="$PROJECT_DIR$/Lambda/Lambda.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Streams/Datenverarbeitung/Objekt-Serialisierung/Objekt-Serialisierung.iml" filepath="$PROJECT_DIR$/Streams/Datenverarbeitung/Objekt-Serialisierung/Objekt-Serialisierung.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Streams/Datenverarbeitung/Scanner/Scanner.iml" filepath="$PROJECT_DIR$/Streams/Datenverarbeitung/Scanner/Scanner.iml" />
       <module fileurl="file://$PROJECT_DIR$/Streams/Streams.iml" filepath="$PROJECT_DIR$/Streams/Streams.iml" />
     </modules>
   </component>
