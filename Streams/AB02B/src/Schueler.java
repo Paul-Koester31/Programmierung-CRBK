@@ -1,6 +1,6 @@
 import java.io.Serializable;
 
-public class Schueler extends Person implements Serializable {
+public class Schueler extends Person   {
     long sID;
 
     public Schueler(String name, String gebdat, Double groesse, Long sID) {

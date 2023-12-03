@@ -1,0 +1,5 @@
+Schueler{ sID=12 | Name=Martin | Geburtsdatum=1.1.2004 | Größe=1.13}
+Schueler{ sID=22 | Name=Robin | Geburtsdatum=1.2.2004 | Größe=1.73}
+Schueler{ sID=32 | Name=An2 | Geburtsdatum=1.3.2004 | Größe=1.83}
+Schueler{ sID=42 | Name=Mihai | Geburtsdatum=1.4.2004 | Größe=1.83}
+Schueler{ sID=52 | Name=Ludwig | Geburtsdatum=1.5.2004 | Größe=2.83}
