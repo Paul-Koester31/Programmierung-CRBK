@@ -23,7 +23,6 @@ public class Main {
             }
             bf.close();
 
-            //list = lines.filter(line -> line.contains(",")).collect(Collectors.toList());
             return list;
         } catch (IOException e) {
             throw new RuntimeException(e);
@@ -32,15 +31,13 @@ public class Main {
 
     public static void sortierenUndSchreiben(List<String> list) {
         list.sort(Comparator.comparing(line -> Arrays.asList(line.split(",")).get(2)));
-        list.sort(Comparator.comparing(line -> Arrays.asList(line.split(",")).get(3)));
-        list.forEach(System.out::println);
+       // list.sort(Comparator.comparing(line -> Arrays.asList(line.split(",")).get(3)));
         try {
-            FileWriter fw = new FileWriter("Datei_Mitarbeiter_sortiert_2.csv");
+            FileWriter fw = new FileWriter("Datei_Mitarbeiter_umgekehrtsortiert.csv");
             BufferedWriter bfw = new BufferedWriter(fw);
-            int i =0;
-            while(i<list.size()){
-                bfw.write(list.get(i));
-                i++;
+            for (int i = list.size()-1; i > 1; i--) {
+                bfw.write(list.get(i)+"\n");
+                System.out.println(list.get(i));
             }
             bfw.close();
             //Files.write(Path.of("Datei_Mitarbeiter_sortiert_2.csv"), list);
