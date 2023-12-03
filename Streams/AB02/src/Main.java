@@ -35,7 +35,7 @@ public class Main {
         try {
             FileWriter fw = new FileWriter("Datei_Mitarbeiter_umgekehrtsortiert.csv");
             BufferedWriter bfw = new BufferedWriter(fw);
-            for (int i = list.size()-1; i > 1; i--) {
+            for (int i = list.size()-1; i >=0; i--) {
                 bfw.write(list.get(i)+"\n");
                 System.out.println(list.get(i));
             }
