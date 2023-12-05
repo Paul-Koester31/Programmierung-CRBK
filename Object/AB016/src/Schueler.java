@@ -2,13 +2,17 @@ public class Schueler extends Person {
 
     private long sID;
 
+    private Adresse adresse;
+
     public Schueler() {
     }
 
-    public Schueler(long sID, String name,String gebDat, Double groesse) {
+    public Schueler(long sID, String name, String gebDat, Double groesse, Adresse adr) {
         super(name, gebDat, groesse);
+        this.adresse = adr;
         this.sID = sID;
     }
+
 
     @Override
     public boolean equals(Object o) {
