@@ -4,8 +4,6 @@ public class Schueler extends Person {
 
     private Adresse adresse;
 
-    public Schueler() {
-    }
 
     public Schueler(long sID, String name, String gebDat, Double groesse, Adresse adr) {
         super(name, gebDat, groesse);
