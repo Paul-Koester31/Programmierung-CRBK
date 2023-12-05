@@ -1,3 +1,5 @@
+import java.util.Objects;
+
 public class Schueler extends Person {
 
     private long sID;
@@ -18,11 +20,8 @@ public class Schueler extends Person {
         if (o == null || getClass() != o.getClass()) return false;
         if (!super.equals(o)) return false;
         Schueler schueler = (Schueler) o;
-        return sID == schueler.sID;
+        return sID == schueler.sID && Objects.equals(adresse, ((Schueler) o).adresse);
     }
 
-    @Override
-    public int hashCode() {
-        return 0;
-    }
+
 }
