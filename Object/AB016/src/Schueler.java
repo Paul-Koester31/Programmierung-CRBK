@@ -5,8 +5,8 @@ public class Schueler extends Person {
     public Schueler() {
     }
 
-    public Schueler(long sID) {
-        super();
+    public Schueler(long sID, String name,String gebDat, Double groesse) {
+        super(name, gebDat, groesse);
         this.sID = sID;
     }
 
