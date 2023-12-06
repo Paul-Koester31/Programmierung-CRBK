@@ -45,7 +45,7 @@ public class Schueler extends Person {
         if (o == null || getClass() != o.getClass()) return false;
         if (!super.equals(o)) return false;
         Schueler schueler = (Schueler) o;
-        return sID == schueler.sID && Objects.equals(adressen,((Schueler) o).adressen);
+        return sID == schueler.sID && Objects.equals(adressen,schueler.adressen);
     }
 
 }
