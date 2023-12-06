@@ -22,6 +22,10 @@ public class Schueler extends Person {
 
     @Override
     protected Object clone() throws CloneNotSupportedException {
-        return this;
+        return new Schueler(getsID(),getName(),getGebDat(),getGroesse());
+    }
+
+    public long getsID() {
+        return sID;
     }
 }

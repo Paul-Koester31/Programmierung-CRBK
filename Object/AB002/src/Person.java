@@ -26,11 +26,12 @@ public abstract class Person {
         return name;
     }
 
+    public String getGebDat() {
+        return gebDat;
+    }
+
     public Double getGroesse() {
         return groesse;
     }
 
-    public String getGebDat() {
-        return gebDat;
-    }
 }
