@@ -27,10 +27,12 @@
       <module fileurl="file://$PROJECT_DIR$/Functional Interfaces/Functional Interfaces.iml" filepath="$PROJECT_DIR$/Functional Interfaces/Functional Interfaces.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/ISW_HUE.iml" filepath="$PROJECT_DIR$/.idea/ISW_HUE.iml" />
       <module fileurl="file://$PROJECT_DIR$/Korrektur1/Korrektur1.iml" filepath="$PROJECT_DIR$/Korrektur1/Korrektur1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Korrektur2/Korrektur2.iml" filepath="$PROJECT_DIR$/Korrektur2/Korrektur2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lambda/Lambda.iml" filepath="$PROJECT_DIR$/Lambda/Lambda.iml" />
       <module fileurl="file://$PROJECT_DIR$/Object/Object.iml" filepath="$PROJECT_DIR$/Object/Object.iml" />
       <module fileurl="file://$PROJECT_DIR$/Streams/Datenverarbeitung/Objekt-Serialisierung/Objekt-Serialisierung.iml" filepath="$PROJECT_DIR$/Streams/Datenverarbeitung/Objekt-Serialisierung/Objekt-Serialisierung.iml" />
       <module fileurl="file://$PROJECT_DIR$/Streams/Datenverarbeitung/Scanner/Scanner.iml" filepath="$PROJECT_DIR$/Streams/Datenverarbeitung/Scanner/Scanner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Softwarequalitaet/Softwarequalitaet.iml" filepath="$PROJECT_DIR$/Softwarequalitaet/Softwarequalitaet.iml" />
       <module fileurl="file://$PROJECT_DIR$/Streams/Streams.iml" filepath="$PROJECT_DIR$/Streams/Streams.iml" />
     </modules>
   </component>
