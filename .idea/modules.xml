@@ -34,6 +34,7 @@
       <module fileurl="file://$PROJECT_DIR$/Streams/Datenverarbeitung/Scanner/Scanner.iml" filepath="$PROJECT_DIR$/Streams/Datenverarbeitung/Scanner/Scanner.iml" />
       <module fileurl="file://$PROJECT_DIR$/Softwarequalitaet/Softwarequalitaet.iml" filepath="$PROJECT_DIR$/Softwarequalitaet/Softwarequalitaet.iml" />
       <module fileurl="file://$PROJECT_DIR$/Streams/Streams.iml" filepath="$PROJECT_DIR$/Streams/Streams.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Softwarequalitaet/WhiteBox/WhiteBox.iml" filepath="$PROJECT_DIR$/Softwarequalitaet/WhiteBox/WhiteBox.iml" />
     </modules>
   </component>
 </project>
