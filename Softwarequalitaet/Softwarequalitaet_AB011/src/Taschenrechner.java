@@ -131,7 +131,6 @@ public class Taschenrechner extends JFrame implements ActionListener {
                 if (eingabe.isEmpty()) throw new InvalidInputException("Fehlerhafte eingabe");
                 switch (rechenart) {
                     case "p":
-
                         parts = eingabe.split("\\+");
                         zahl1 = Double.parseDouble(parts[0]);
                         zahl2 = Double.parseDouble(parts[1]);
