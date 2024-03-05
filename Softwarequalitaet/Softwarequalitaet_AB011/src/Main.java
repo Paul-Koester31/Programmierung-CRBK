@@ -1,5 +1,11 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        try {
+            Taschenrechner r = new Taschenrechner();
+            r.setVisible(true);
+        }catch (TaschenRechnerException e){
+
+        }
+
     }
 }
