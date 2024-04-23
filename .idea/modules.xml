@@ -36,11 +36,13 @@
       <module fileurl="file://$PROJECT_DIR$/Multithreading/Multithreading_AB001/Multithreading_AB001.iml" filepath="$PROJECT_DIR$/Multithreading/Multithreading_AB001/Multithreading_AB001.iml" />
       <module fileurl="file://$PROJECT_DIR$/Object/Object.iml" filepath="$PROJECT_DIR$/Object/Object.iml" />
       <module fileurl="file://$PROJECT_DIR$/Streams/Datenverarbeitung/Objekt-Serialisierung/Objekt-Serialisierung.iml" filepath="$PROJECT_DIR$/Streams/Datenverarbeitung/Objekt-Serialisierung/Objekt-Serialisierung.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pruefungsvorbereitung/Pruefungsvorbereitung.iml" filepath="$PROJECT_DIR$/Pruefungsvorbereitung/Pruefungsvorbereitung.iml" />
       <module fileurl="file://$PROJECT_DIR$/Streams/Datenverarbeitung/Scanner/Scanner.iml" filepath="$PROJECT_DIR$/Streams/Datenverarbeitung/Scanner/Scanner.iml" />
       <module fileurl="file://$PROJECT_DIR$/Softwarequalitaet/Softwarequalitaet.iml" filepath="$PROJECT_DIR$/Softwarequalitaet/Softwarequalitaet.iml" />
       <module fileurl="file://$PROJECT_DIR$/Softwarequalitaet/Softwarequalitaet_AB011/Softwarequalitaet_AB011.iml" filepath="$PROJECT_DIR$/Softwarequalitaet/Softwarequalitaet_AB011/Softwarequalitaet_AB011.iml" />
       <module fileurl="file://$PROJECT_DIR$/Streams/Streams.iml" filepath="$PROJECT_DIR$/Streams/Streams.iml" />
       <module fileurl="file://$PROJECT_DIR$/Softwarequalitaet/WhiteBox/WhiteBox.iml" filepath="$PROJECT_DIR$/Softwarequalitaet/WhiteBox/WhiteBox.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pruefungsvorbereitung/lambda/lambda.iml" filepath="$PROJECT_DIR$/Pruefungsvorbereitung/lambda/lambda.iml" />
     </modules>
   </component>
 </project>
