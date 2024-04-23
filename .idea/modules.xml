@@ -42,7 +42,8 @@
       <module fileurl="file://$PROJECT_DIR$/Softwarequalitaet/Softwarequalitaet_AB011/Softwarequalitaet_AB011.iml" filepath="$PROJECT_DIR$/Softwarequalitaet/Softwarequalitaet_AB011/Softwarequalitaet_AB011.iml" />
       <module fileurl="file://$PROJECT_DIR$/Streams/Streams.iml" filepath="$PROJECT_DIR$/Streams/Streams.iml" />
       <module fileurl="file://$PROJECT_DIR$/Softwarequalitaet/WhiteBox/WhiteBox.iml" filepath="$PROJECT_DIR$/Softwarequalitaet/WhiteBox/WhiteBox.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Pruefungsvorbereitung/lambda/lambda.iml" filepath="$PROJECT_DIR$/Pruefungsvorbereitung/lambda/lambda.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pruefungsvorbereitung/lambda06/lambda06.iml" filepath="$PROJECT_DIR$/Pruefungsvorbereitung/lambda06/lambda06.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pruefungsvorbereitung/lambda07/lambda07.iml" filepath="$PROJECT_DIR$/Pruefungsvorbereitung/lambda07/lambda07.iml" />
     </modules>
   </component>
 </project>
